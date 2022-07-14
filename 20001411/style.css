@@ -1,0 +1,60 @@
+body{
+    background-color:black;
+    background-size: cover;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+  }
+
+  h1{
+    color: white;
+  }
+
+  .content{
+    width: 750px;
+    background: rgba(110, 110, 110, 0.75);
+    padding: 50px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 5%;
+
+    text-align: center;
+    color: white;
+  }
+
+  .content-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    transition: width 1s, height 1s;
+    transition-delay: 1.5s;
+  }
+
+  .content-img:hover {
+    width: 500px;
+    height: 500px;
+  }
+
+  .content p{
+    text-align: justify;
+    font-size: 22px;
+  }
+
+    a.inside:link, a.inside:visited {
+    margin: 20px;
+    position: fixed;
+    top: 0;
+
+    background-color: rgb(24, 143, 60);
+    padding: 12px 24px;
+    border-radius: 5px;
+
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+    a.inside:hover, a.inside:active {
+    background-color: rgb(61, 184, 67);
+  }
