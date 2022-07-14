@@ -40,6 +40,21 @@ body{
     font-size: 22px;
   }
 
+  .content h3{
+    font-size: 35px;
+    font-weight: 100;
+  }
+
+  .content ul{
+    text-align: left;
+    font-size: 22px;
+  }
+
+  .content a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+  }
+
     a.inside:link, a.inside:visited {
     margin: 20px;
     position: fixed;
